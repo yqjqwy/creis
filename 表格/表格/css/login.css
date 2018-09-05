@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/*登陆页begin*/
+body{font-family: "Microsoft YaHei";}
+*{margin:0;padding:0;box-sizing: content-box;}
+body{margin:0;padding:0;}
+a,a:hover{text-decoration: none;}
+input{ vertical-align:middle; outline:none;resize:none}
+input,select,textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;    
+    resize:none;
+}
+input::-ms-clear,input::-ms-reveal {display: none;}
+.fl{float:left;}
+.fr{float:right;}
+.page_header{min-width:1000px;height:60px;background-color:#0073bc;line-height:60px;}
+.ptnfixed{width:100%;position:fixed;top:0;left:0;z-index:1300;}
+.header_logo a img{vertical-align: middle;}
+.page_header_in{min-width:1000px;max-width:1200px;margin:0 auto;}
+.login_header .page_header{background:transparent;}
+/* .login_header .page_header:hover{background-color:#041735;}*/
+.headerNav{line-height: 24px;margin-top: 20px;}
+.headerNav a{font-size:14px;color:#c7c7c7;margin-left:20px;}
+.headerNav a:hover{color:#2f9fe6;text-decoration: none;}
+.login_cont{position:fixed;width:100%;height: 100%;left:0;top:0;background-color:#0c2047;overflow:hidden;}
+.login_main{width:100%;height:100%;position:absolute;left:0;top:0;z-index:200;}
+.login_minner{min-width:1000px;max-width:1100px;margin:0 auto;position:relative;margin-top:13%;}
+.loginbox{width:350px;background-color:#fff;border-radius: 5px;padding-bottom: 50px;}
+.loginfunc{height:40px;line-height: 40px;padding:15px 0 10px;}
+.loginfunc h3{font-size:20px;text-align: center;font-weight: normal;margin:0;line-height: 40px;}
+.loginform{padding:0 35px;}
+.loginformipt{border:1px solid #cccccc;height: 44px;border-radius:5px;position:relative;margin-bottom:40px;*margin-bottom:35px;background-color:#fff;}
+.loginipt{border:0;outline:0;resize:none;display:block;padding:10px 13px;width:100%;*width:85.5%;line-height: 24px;background-color:#fff;font-size: 14px;border-radius:5px;height:44px;*height:22px;font-family: "微软雅黑";}
+.loginform .btn_dele{display:inline-block;width:17px;height:17px;background:url(../images/login_icon.png) -141px -40px no-repeat;position:absolute;right:12px;top:50%;margin-top:-8px;}
+.onfoc{border-color:#3f99ed;box-shadow: 0 0 3px rgba(179,218,255,0.75);-webkit-box-shadow: 0 0 3px rgba(179,218,255,0.75);-moz-box-shadow: 0 0 3px rgba(179,218,255,0.75);-ms-box-shadow: 0 0 3px rgba(179,218,255,0.75);-o-box-shadow: 0 0 3px rgba(179,218,255,0.75);background-color:#fff;}
+.onfoc .loginipt{background-color:#fff;}
+.alertbox{color:#e72d2d;position:absolute;top:45px;left:0;width:100%;font-size:12px;line-height: 24px;}
+.icon_alert{display:inline-block;width:14px;height:14px;background:url(../images/login_icon.png) -107px -42px no-repeat;vertical-align: middle;}
+
+.login_btn a{display:block;height:46px;line-height: 46px;background-color:#3291ea;text-align: center;color:#fff;font-size:16px;border-radius: 5px;}
+/* .loginform_other{background-color:#f0f0f0;border-top:1px solid #e0e0e0;border-radius:0 0 5px 5px;margin-top:40px;}
+.loginform_other dt,.loginform_other dd{float:left;display:inline-block;text-align: center;}
+.loginform_other dt{width:33%;}
+.loginform_other dt a{display:block;height:46px;line-height: 46px;color:#787a7d;font-size:12px;}
+.loginform_other dt a em{display:inline-block;width:22px;height:22px;background:url(../images/icon07.png) -143px -145px no-repeat;vertical-align: middle;}
+.loginform_other dt a em.icon_dynamic_code{background-position: -178px -142px;}
+.loginform_other dt a em.icon_active{background-position:0px -178px;}
+.loginform_other dd{width:1px;height:46px;background-color:#e0e0e0;}
+.login_top_bg,.login_bottom_bg{width:350px;height:13px;background:url(../images/login_bg.png) left top no-repeat;} */
+.index_bg{padding:120px 20px 0 50px;float: left;}
+.fpw02{width:80%;*width:74%;padding:10px 8px;}
+.login_icon{display: inline-block;width:26px;height:26px;background:url(../images/login_icon.png) left top no-repeat;vertical-align: middle;}
+.loginformipt .login_icon{margin-top:9px;margin-left:7px;}
+.icon_user{background-position:-30px -35px;}
+.icon_key{background-position:-65px -35px;}
+.icon_user_name{background-position:5px 2px;}
+.icon_company{background-position:-34px 2px;}
+.icon_position{background-position:-72px 2px;}
+.icon_tele{background-position:-110px 4px;}
+.icon_email{background-position:-148px 4px;}
+.icon_protect{background-position:5px -36px;}
+/*登陆页end*/
+/*浏览器版本提示*/
+.explainbox{background-color:#FFFFED;border: 1px solid #e1d883;position:fixed;width:100%;top:0px;left:0;z-index:1560;}
+.explainbox .excnt{padding: 3px 10px;text-align:center;font-size:12px;line-height: 20px;}
+.explainbox .btn_close{font-size:18px;color:#757575;cursor:pointer;text-decoration:none;position:absolute;right:5px;height: 20px;line-height: 20px;top:50%;margin-top: -12px;background-image: none;}
+.explainbox .icon_alert{display:inline-block;width:16px;height:16px;background:url(../images/icon_alert.png) no-repeat;vertical-align:middle;margin-top:-2px;margin-right:3px;}
+.phcolor{color:#666;margin:0;}
