@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>地图全景</title>
-        <link rel="stylesheet" type="text/css" href="css/element-ui.css">
-        <link rel="stylesheet" type="text/css" href="css/citymap-zhenro.css">
-        <link rel="stylesheet" type="text/css" href="css/citymap-ui.css">
-        <link rel="stylesheet" href="css/select.css">
-        <script type="text/javascript" src="https://static.soufunimg.com/industry/commonjs/jquery-1.9.1.min.js"></script>
-        <script src="js/vue.js"></script>
-        <script src="js/element-ui.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地图全景</title>
+    <link rel="stylesheet" type="text/css" href="css/element-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/citymap-zhenro.css">
+    <link rel="stylesheet" type="text/css" href="css/citymap-ui.css">
+    <link rel="stylesheet" href="css/select.css">
+    <script type="text/javascript" src="https://static.soufunimg.com/industry/commonjs/jquery-1.9.1.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/element-ui.js"></script>
 </head>
+
 <body>
     <div class="wrapper" id="wrapper">
         <div style="width:800px;margin:0 auto;">
             <el-table :data="tableData3" style="width: 100%" stripe size="small" max-height="300" class="tbbox03 table_raster">
-                    <el-table-column prop="way" label="渠道" min-width="90" header-align="center"></el-table-column>
-                    <el-table-column prop="time" label="发布时间" align="center" min-width="90"></el-table-column>
-                    <el-table-column label="标题" header-align="center" min-width="160">
-                        <template slot-scope="scope">
-                            <a href="javascript:;" class="blue01">{{ scope.row.title }}</a>
-                        </template>
-                    </el-table-column>
+                <el-table-column prop="way" label="渠道" min-width="90" header-align="center"></el-table-column>
+                <el-table-column prop="time" label="发布时间" align="center" min-width="90"></el-table-column>
+                <el-table-column label="标题" header-align="center" min-width="160">
+                    <template slot-scope="scope">
+                        <a href="javascript:;" class="blue01">{{ scope.row.title }}</a>
+                    </template>
+                </el-table-column>
             </el-table>
             <div class="butbox" style="padding:10px;">
                 <el-button type="primary" plain size="mini"><i class="el-icon-plus"></i>新增</el-button>
@@ -34,20 +36,20 @@
         new Vue({
             el: '#wrapper',
             data: {
-                tableData3: [{ 
-                    way: '杭州市房产信息网',
+                tableData3: [{
+                    way: '杭州市房产信息网1',
                     time: '2017-02-23',
                     title: '关于进一步完善住房限购及销售监管措施的通知'
                 }, {
-                    way: '杭州市房产信息网',
+                    way: '杭州市房产信息网2',
                     time: '2017-02-23',
                     title: '关于进一步调整住房限购措施的通知'
                 }, {
-                    way: '杭州市房产信息网',
+                    way: '杭州市房产信息网3',
                     time: '2017-02-23',
                     title: '关于进一步完善住房限购及销售监管措施的通知'
                 }, {
-                    way: '杭州市房产信息网',
+                    way: '杭州市房产信息网4',
                     time: '2017-02-23',
                     title: '关于进一步调整住房限购措施的通知'
                 }]
@@ -56,4 +58,5 @@
         })
     </script>
 </body>
+
 </html>
