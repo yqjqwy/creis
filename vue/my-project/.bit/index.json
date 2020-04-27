@@ -1,0 +1,26 @@
+[
+  {
+    "id": {
+      "scope": null,
+      "name": "cus-dimession"
+    },
+    "isSymlink": false,
+    "hash": "cb300330432be68227cd41386f28d9b514c5efab"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "index"
+    },
+    "isSymlink": false,
+    "hash": "e540cdd1328b2b21e29a95405c301b9313b7c346"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "readme"
+    },
+    "isSymlink": false,
+    "hash": "f78a71af8bbf8cc2f6f313549d4da14bd3771359"
+  }
+]
