@@ -14,7 +14,7 @@
     "es6-promise": "^4.0.5",
     "mint-ui": "^2.2.13",
     "moment": "^2.22.2",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
     "vue-fullcalendar": "^1.0.9",
