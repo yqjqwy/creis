@@ -4,6 +4,6 @@
         "dev": "nuxt"
     },
     "dependencies": {
-        "nuxt": "^1.4.0"
+        "nuxt": "^3.0.0"
     }
 }
